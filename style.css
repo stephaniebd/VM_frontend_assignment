@@ -1,7 +1,48 @@
-/* hero img */
+/* hero section */
 .hero {
-    background-image: url(assets_tmp2/group-3@3x.png);
+    background-image: linear-gradient(90deg, rgba(31, 10, 1, 0.5) 25.84%, rgba(196, 196, 196, 0) 99.5%), url(assets_tmp2/group-3@3x.png);
     background-size: cover;
     background-position: center;
 }
 
+.title {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5.2px;
+}
+
+.button {
+    background-color: #2a7ee1;
+    border: none;
+    color: white;
+    width: 172px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* feature section */
+#feature {
+    padding-top: 8%;
+}
+
+p {
+    padding-bottom: 6%;
+}
+
+.benefits {
+    padding:16% 0% 0% 8%;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+h2.title.is-5 {
+    margin-bottom: 1.5%;
+    color: #2a7ee1;
+}
+
+/* feature section */
