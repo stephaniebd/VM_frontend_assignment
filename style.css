@@ -18,16 +18,17 @@
     color: white;
     width: 172px;
     text-transform: uppercase;
-    font-weight: 400;
-    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
 }
 
-
-/* feature section */
-#feature {
+section {
     padding-top: 8%;
 }
+.container {
+    padding:0% 4% 0% 4%;
+}
 
+/* feature section */
 p {
     padding-bottom: 6%;
 }
@@ -45,4 +46,14 @@ h2.title.is-5 {
     color: #2a7ee1;
 }
 
-/* feature section */
+/* learn section */
+.learn p {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 3%;
+}
+#learnmore {
+    display: block;
+    margin: 0 auto;
+}
