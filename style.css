@@ -50,10 +50,37 @@ h2.title.is-5 {
 .learn p {
     text-align: center;
     font-weight: bold;
-    font-size: larger;
     padding-bottom: 3%;
 }
+
 #learnmore {
     display: block;
     margin: 0 auto;
+}
+
+/* testimonial section */
+.card{
+    background-color: #e8ecf2;
+    margin: 0% 10% 0% 10%;
+    min-width: 60%;
+    box-shadow: none;
+    padding: 2% 2% 0% 2%;
+}
+
+.card p {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.name {
+    color: #b4b5ba;
+    text-align: center;
 }
